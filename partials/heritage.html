@@ -1,0 +1,47 @@
+    <section class="page" id="page-heritage">
+      <div class="wrap p-head">
+        <div class="grid-12" style="align-items:end;margin-bottom:48px">
+          <div style="grid-column:1/8">
+            <span class="eyebrow">Heritage Archive</span>
+            <h1 class="serif display-l">A digital archive of<br>documented <i>places</i></h1>
+          </div>
+          <div style="grid-column:9/13">
+            <p class="body-muted" style="margin:0;font-weight:300">Every entry is a working record: photographs,
+              measured 3D models, historical notes and the research produced around them. Filter by country, type,
+              period or documentation status.</p>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="filter-bar">
+          <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="11" cy="11" r="7" />
+              <path d="m20 20-3.5-3.5" />
+            </svg><input id="hSearch" type="search" placeholder="Search sites, cities, periods…"></label>
+          <div class="sel"><select id="hCountry">
+              <option value="">All countries</option>
+              <option>Iraq</option>
+              <option>Armenia</option>
+            </select></div>
+          <div class="sel"><select id="hType">
+              <option value="">All types</option>
+            </select></div>
+          <div class="sel"><select id="hPeriod">
+              <option value="">All periods</option>
+            </select></div>
+          <div class="sel"><select id="hStatus">
+              <option value="">Any status</option>
+              <option>Documented</option>
+              <option>In progress</option>
+              <option>Planned</option>
+            </select></div>
+          <button class="chip" id="h3d">3D available</button>
+          <button class="chip" id="hGal">Gallery</button>
+          <span class="count" id="hCount"></span>
+        </div>
+        <div class="arch-grid" id="archGrid"></div>
+      </div>
+      <div class="section-tight"></div>
+    </section>
+
+    <!-- ===================== SITE PROFILE ===================== -->

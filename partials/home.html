@@ -1,0 +1,257 @@
+    <!-- ===================== HOME ===================== -->
+    <section class="page" id="page-home">
+      <div id="hero">
+        <div id="hero-media"
+          data-bg="https://images.pexels.com/photos/39152783/pexels-photo-39152783.jpeg?auto=compress&cs=tinysrgb&w=2200">
+        </div>
+        <div class="veil"></div>
+        <div class="veil2"></div>
+        <canvas id="heroCloud" aria-hidden="true"></canvas>
+        <div class="wrap hero-content">
+          <div class="hero-grid">
+            <div class="hero-title">
+              <span class="eyebrow" style="color:#A69C88"><span class="brand-name">Heritage Bridge</span> — Digital
+                Heritage Initiative · Iraq · Armenia</span>
+              <h1 class="serif display-xl">Measured.<br>Modelled.<br><i>Remembered.</i></h1>
+              <p>Connecting cultural heritage with digital documentation, research, education and new generations — one
+                site, one point cloud, one story at a time.</p>
+              <div class="hero-ctas">
+                <a href="#/heritage" class="btn btn-primary">Explore Heritage <span class="arr">→</span></a>
+                <a href="#/site/al-saa-church" class="btn btn-light">Open the 3D Archive</a>
+              </div>
+            </div>
+            <div class="hero-side">
+              <a href="#/site/al-saa-church" class="now-doc">
+                <div class="k"><span class="pulse"></span>Currently documenting</div>
+                <div class="v serif">Al-Saa'a Church</div>
+                <div class="m">Mosul, Iraq · Photogrammetry · Phase II</div>
+              </a>
+            </div>
+          </div>
+          <div class="hero-stats">
+            <div class="st">
+              <div class="n" data-count="24">0</div>
+              <div class="l">Sites documented</div>
+            </div>
+            <div class="st">
+              <div class="n" data-count="17">0</div>
+              <div class="l">Interactive 3D models</div>
+            </div>
+            <div class="st">
+              <div class="n" data-count="31">0</div>
+              <div class="l">Research items</div>
+            </div>
+            <div class="st">
+              <div class="n"><span data-count="2">0</span> <b>+</b></div>
+              <div class="l">Countries · expanding</div>
+            </div>
+            <div class="scroll-cue"><i></i>Scroll</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured Heritage -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">01 — Featured Heritage</span>
+              <h2 class="serif display-l">Places we are<br>keeping in <i>precise</i> memory</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <p class="body-muted" style="margin:0;font-weight:300">A curated selection from the archive. Each site is
+                recorded through photogrammetry, historical research and field documentation, then published as an open
+                digital profile.</p>
+              <a href="#/heritage" class="link-u">View the full archive <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div class="feat-grid" id="featGrid"></div>
+        </div>
+      </section>
+
+      <!-- Our Work -->
+      <section class="section" style="background:var(--surface)">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">02 — Our Work</span>
+              <h2 class="serif display-l">From stone to data,<br>and back to people</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <p class="body-muted" style="margin:0;font-weight:300">Four practices, one continuous method: record the
+                fabric of a place accurately, interpret it rigorously, and make it accessible for research, teaching and
+                public understanding.</p>
+            </div>
+          </div>
+          <div class="work-list" id="workList"></div>
+          <div class="stat-band">
+            <div class="reveal">
+              <div class="n serif">2.4<span style="color:var(--accent)">B</span></div>
+              <div class="l">Points captured across all documented sites</div>
+            </div>
+            <div class="reveal" data-delay="1">
+              <div class="n serif">38k</div>
+              <div class="l">Field photographs processed for reconstruction</div>
+            </div>
+            <div class="reveal" data-delay="2">
+              <div class="n serif">±3<span style="font-size:.5em;vertical-align:top">mm</span></div>
+              <div class="l">Median registration accuracy on close-range surveys</div>
+            </div>
+            <div class="reveal" data-delay="3">
+              <div class="n serif">100<span style="color:var(--accent)">%</span></div>
+              <div class="l">Open access to models, reports and lessons</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Research -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">03 — Featured Research</span>
+              <h2 class="serif display-l">Selected from the<br>Research Library</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <a href="#/research" class="link-u">Browse all publications <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div id="homeResearch"></div>
+        </div>
+      </section>
+
+      <!-- Map preview -->
+      <section class="section" style="background:var(--surface)">
+        <div class="wrap">
+          <div class="grid-12" style="align-items:end;margin-bottom:40px">
+            <div class="reveal" style="grid-column:1/7">
+              <span class="eyebrow">04 — Heritage Map</span>
+              <h2 class="serif display-l" style="margin:18px 0 0">Two countries,<br>one growing survey</h2>
+            </div>
+            <div class="reveal" data-delay="1"
+              style="grid-column:8/13;display:flex;flex-direction:column;gap:18px;align-items:flex-start">
+              <p class="body-muted" style="margin:0;font-weight:300">Iraq and Armenia form the first two chapters of the
+                map. Each marker is a documented location with its own profile, and the architecture is ready for
+                further countries.</p>
+              <a href="#/map" class="btn btn-ghost">Explore the Heritage Map <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div class="map-shell reveal">
+            <div id="mapPreview" class="map-frame"></div>
+            <div class="map-grid-overlay"></div>
+            <div class="map-legend"><span><i></i>Iraq — documented</span><span><i class="a"></i>Armenia —
+                documented</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured projects -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">05 — Digital Works</span>
+              <h2 class="serif display-l">Heritage as games,<br>applications and platforms</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <a href="#/works" class="link-u">All digital works <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div class="proj-grid" id="homeProjects"></div>
+        </div>
+      </section>
+
+      <!-- Events preview -->
+      <section class="section" style="background:var(--surface)">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">06 — Events & Experiences</span>
+              <h2 class="serif display-l">Fieldwork, competitions<br>and the road between</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <a href="#/events" class="link-u">Open the timeline <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div class="ev-prev" id="homeEvents"></div>
+        </div>
+      </section>
+
+      <!-- Story band -->
+      <section class="section story-band">
+        <div class="wrap grid-12">
+          <div class="reveal img-reveal" style="grid-column:1/6">
+            <div class="img-wrap"><img
+                src="https://images.pexels.com/photos/27946497/pexels-photo-27946497.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Field documentation at an archaeological site"></div>
+          </div>
+          <div class="reveal" data-delay="1" style="grid-column:7/13">
+            <span class="eyebrow">07 — Our Story</span>
+            <h2 class="serif display-l" style="margin:18px 0 28px">We began with one church<br>and a borrowed camera.
+            </h2>
+            <p class="lead" style="margin:0 0 20px"><span class="brand-name">Heritage Bridge</span> started as a student
+              initiative documenting a single damaged church in Mosul. The first model was imperfect. The response was
+              not: archivists, engineers and families who had prayed there wrote to ask for more.</p>
+            <p class="lead" style="margin:0 0 36px">Today we work across Iraq and Armenia with universities and cultural
+              institutions, building an open record of places that cannot document themselves.</p>
+            <div style="display:flex;gap:14px;flex-wrap:wrap">
+              <a href="#/story" class="btn btn-light">Read our story <span class="arr">→</span></a>
+              <a href="#/team" class="link-u" style="padding:15px 6px">Meet the team</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team preview -->
+      <section class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <div class="l reveal">
+              <span class="eyebrow">08 — Team</span>
+              <h2 class="serif display-l">The people behind<br>the point clouds</h2>
+            </div>
+            <div class="r reveal" data-delay="1">
+              <a href="#/team" class="link-u">Full team & stories <span class="arr">→</span></a>
+            </div>
+          </div>
+          <div class="team-grid" id="homeTeam"></div>
+        </div>
+      </section>
+
+      <!-- Partners -->
+      <section class="section-tight hairline">
+        <div class="wrap">
+          <div class="reveal"
+            style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:28px;gap:24px;flex-wrap:wrap">
+            <span class="eyebrow">09 — Institutions & Partners</span>
+            <span class="mono body-muted"
+              style="font-size:11px;letter-spacing:.1em;text-transform:uppercase">Partnerships in development ·
+              placeholders</span>
+          </div>
+          <div class="partners reveal" data-delay="1">
+            <div>University of Mosul<small>Academic partner</small></div>
+            <div>Yerevan State University<small>Research collaboration</small></div>
+            <div>Nineveh Heritage Office<small>Field access</small></div>
+            <div>ICOMOS Emerging Professionals<small>Network</small></div>
+            <div>Open Heritage 3D<small>Data hosting</small></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta-band">
+        <div class="wrap grid-12">
+          <div style="grid-column:1/8" class="reveal">
+            <h2 class="serif display-m" style="margin:0">Begin with the archive,<br>or begin by <i>learning</i> to
+              document.</h2>
+          </div>
+          <div style="grid-column:9/13;display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end" class="reveal"
+            data-delay="1">
+            <a href="#/heritage" class="btn btn-primary">Explore Heritage <span class="arr">→</span></a>
+            <a href="#/academy" class="btn btn-ghost">Enter the Academy</a>
+          </div>
+        </div>
+      </section>
+    </section>
+
